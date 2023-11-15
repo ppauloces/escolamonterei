@@ -1,0 +1,42 @@
+body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-image: url(img/background.jpg);
+        background-size: cover;
+}
+.principal{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0.863);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+#collapsibleNavbar a{
+    color: blue;
+}
+#collapsibleNavbar a:hover{
+    background-color: blue;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    color: white;
+}
+.navbar-toggler-icon{
+    background-color: rgb(40, 109, 247);
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.container-fluid{
+    justify-content: space-between;
+}
