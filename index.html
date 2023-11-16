@@ -13,10 +13,179 @@
   <body>
     <h1>Olá, Paulo Amaral!</h1>
 
+<<<<<<< Updated upstream
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
+=======
+  <title>Escola Monte Rei</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Classe para a seção com imagem de fundo */
+    .bg-section {
+      position: relative;
+      background-image: url('img/fundo.jpg');
+      /* Substitua pelo caminho real da sua imagem */
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      height: 100vh;
+      overflow: hidden;
+      color: white;
+    }
+
+    .bg-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0.5);
+      /* Ajuste a opacidade conforme necessário */
+      backdrop-filter: blur(10px);
+      /* Ajuste o valor de desfoque conforme necessário */
+    }
+
+    .container-content {
+      position: relative;
+      z-index: 1;
+      /* Garante que o conteúdo apareça acima do fundo desfocado */
+    }
+
+    /* Ajuste a cor da barra de navegação para que seja legível na imagem de fundo */
+    .navbar {
+      background-color: rgba(255, 255, 255, 0.8);
+      /* Ajuste a opacidade conforme necessário */
+    }
+
+    .navbar-brand img {
+      max-height: 120px;
+      /* Ajuste conforme necessário */
+    }
+
+    .navbar-nav .itens-navbar {
+      color: #116780;
+      font-size: 1.5rem;
+      /* Ajuste o tamanho da fonte conforme necessário */
+      margin-right: 18px;
+      /* Ajuste a margem à direita conforme necessário */
+    }
+
+    .navbar-nav .itens-navbar:hover {
+      background-color: #cfd2d3;
+      border-radius: 15px;
+    }
+
+    .center-text {
+      text-align: center;
+      font-size: 2rem;
+      /* Ajuste o tamanho da fonte conforme necessário */
+      font-weight: bold;
+      /* Ajuste o peso da fonte conforme necessário */
+    }
+
+    .box {
+      background-color: lightgrey;
+      width: 300px;
+      border: 15px solid green;
+      padding: 50px;
+      margin: 0; /* Removido margin */
+      position: relative;
+      z-index: 1;
+    }
+
+    .box.middle {
+      margin-top: -50px; /* Ajuste conforme necessário */
+      z-index: 2;
+    }
+
+    .row1 {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light bg-transparent fixed-top">
+    <div class="container">
+      <!-- Logo à esquerda -->
+      <a class="navbar-brand" href="#">
+        <img src="img/logo.png" alt="Escola Monte Rei" height="100">
+      </a>
+
+      <!-- Botão de hamburguer para telas pequenas -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Conteúdos à direita -->
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item mx-5 mt-4">
+            <a class="nav-link fs-5 fw-bolder itens-navbar" href="#">Categoria 1</a>
+          </li>
+          <li class="nav-item mx-5 mt-4">
+            <a class="nav-link fs-5 fw-bolder itens-navbar" href="#">Categoria 2</a>
+          </li>
+          <li class="nav-item mx-5 mt-4">
+            <a class="nav-link fs-5 fw-bolder itens-navbar" href="#">Categoria 3</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="bg-section">
+    <div class="bg-overlay"></div>
+    <div class="container container-content" style="margin-top: 18rem;">
+      <div class="row1">
+
+        <!-- Conteúdo da primeira box -->
+        <div class="box" style="margin-left: 30rem;">
+          <!-- Seu conteúdo aqui -->
+        </div>
+
+        <!-- Conteúdo da segunda box -->
+        <div class="box middle" style="margin-bottom: 40px;">
+          <!-- Seu conteúdo aqui -->
+        </div>
+
+        <!-- Conteúdo da terceira box -->
+        <div class="box">
+          <!-- Seu conteúdo aqui -->
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+
+  <!-- JavaScript (Opcional) -->
+  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+</body>
+
+>>>>>>> Stashed changes
 </html>
