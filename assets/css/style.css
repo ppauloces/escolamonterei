@@ -14,7 +14,7 @@ body {
   overflow-x: hidden;
   font-size: 14px;
   line-height: 26px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 p {
@@ -1039,32 +1039,35 @@ section,
   box-shadow: 0 0 5px 1px #bab8b4;
 }
 
+
 .top-info li .info-icon {
   float: left;
 }
 .top-info li .info-icon i {
   width: 35px;
   height: 35px;
-  border: 1px solid #ffbf10;
+  border: 1px solid #004369;
   position: relative;
   text-align: center;
   line-height: 34px;
   border-radius: 50%;
-  color: #ffbf10;
+  color: #004369;
   top: 5px;
   font-size: 18px;
 }
+
+
 .top-info .info-wrapper {
   padding-left: 45px;
   margin-right: 20px;
 }
 .top-info .info-wrapper .info-title {
   margin-bottom: -7px;
-  color: #494753;
+  color: #004369;
   font-weight: 500;
 }
 .top-info .info-wrapper .info-subtitle {
-  color: #929292;
+  color: #5f747d;
   margin-bottom: 0;
 }
 .top-info .info-wrapper p {
@@ -1080,6 +1083,7 @@ section,
 .site-navigation {
   background: #01364b;
 }
+
 
 .navbar-expand-lg .navbar-nav > .nav-item {
   margin-right: 45px;
@@ -1353,19 +1357,158 @@ section,
 
 /* About
 =========================================== */
-.tl-about {
-  padding-top: 88px;
-  padding-bottom: 68px;
-	margin-bottom:0px !important;
-background: url(../../img/bg-2.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-	background-position: center center;
+.tl-sobre {
+  width: 100%; /* 100% da largura da viewport */
+  height: 100%; /* 100% da altura da viewport */
+}
+.top-info-sobre li {
+  overflow: hidden;
 }
 
+.top-info-sobre li .info-icon-sobre {
+  float: left;
+  margin-right: 15px; /* Ajusta o espaçamento entre o ícone e o texto */
+}
+
+.top-info-sobre li .info-icon-sobre i {
+  width: 85px;
+  height: 85px;
+  border: 1px solid #f3a13f;
+  position: relative;
+  text-align: center;
+  line-height: 82px;
+  border-radius: 50%;
+  color: #004369;
+  font-size: 50px;
+}
+
+.top-info-sobre .info-wrapper-sobre {
+  overflow: hidden; /* Evita que o texto se sobreponha ao ícone */
+  margin-top: -4px;
+}
+
+.top-info-sobre .info-wrapper-sobre .info-title-sobre {
+  margin-bottom: 3px;
+  color: #004369;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.top-info-sobre .info-wrapper-sobre .info-subtitle-sobre {
+  color: #5f747d;
+  margin-bottom: 0;
+}
+
+.top-info-sobre .info-wrapper-sobre p {
+  font-family: "Poppins", sans-serif;
+}
+
+.unstyled-sobre {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.list-inline-sobre li {
+  display: inline-block;
+}
+
+
 .about-content .readmore-btn {
-  margin-top: 28px;
-  margin-bottom: 40px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.about-bg {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.about-box {
+  padding: 35px 40px 40px;
+}
+.about-box h3 {
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+.about-box p {
+  color: #fff;
+  margin-bottom: 18px;
+}
+
+.about-event .event-title {
+  font-size: 30px;
+  text-transform: none;
+  font-weight: 700;
+  margin-bottom: 45px;
+}
+.about-event .event-time {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 75px;
+  background: #ff9f00;
+  text-align: center;
+  padding: 31px 0;
+}
+.about-event .event-time span {
+  display: block;
+  font-family: "Poppins", sans-serif, sans-serif;
+  color: #fff;
+  font-weight: 600;
+}
+.about-event .event-time .event-date {
+  font-size: 45px;
+  margin-bottom: 9px;
+}
+.about-event .event-time .event-month {
+  font-weight: 500;
+}
+
+.event-box-wrapper {
+  border: 1px solid #ff9f00;
+  margin-bottom: 30px;
+  position: relative;
+  padding: 20px 0 10px 90px;
+  min-height: 155px;
+}
+
+.event-info .event-name {
+  text-transform: none;
+  margin-bottom: 6px;
+}
+.event-info .event-location > span {
+  color: #ff9f00;
+  margin-right: 15px;
+}
+.event-info .event-location > span i {
+  color: #8e8e8e;
+  margin-right: 4px;
+}
+
+.event-desc {
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+/* About
+=========================================== */
+.tl-about {
+  width: 100vw; /* 100% da largura da viewport */
+  height: 100vh; /* 100% da altura da viewport */
+  background: url(../../img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+
+.about-content .readmore-btn {
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .about-bg {
