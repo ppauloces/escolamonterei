@@ -1363,6 +1363,68 @@ section,
 }
 .top-info-sobre li {
   overflow: hidden;
+<<<<<<< HEAD
+}
+
+.top-info-sobre li .info-icon-sobre {
+  float: left;
+  margin-right: 15px; /* Ajusta o espaçamento entre o ícone e o texto */
+}
+
+.top-info-sobre li .info-icon-sobre i {
+  width: 85px;
+  height: 85px;
+  border: 1px solid #f3a13f;
+  position: relative;
+  text-align: center;
+  line-height: 82px;
+  border-radius: 50%;
+  color: #004369;
+  font-size: 50px;
+}
+
+.top-info-sobre .info-wrapper-sobre {
+  overflow: hidden; /* Evita que o texto se sobreponha ao ícone */
+  margin-top: -4px;
+}
+
+.top-info-sobre .info-wrapper-sobre .info-title-sobre {
+  margin-bottom: 3px;
+  color: #004369;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.top-info-sobre .info-wrapper-sobre .info-subtitle-sobre {
+  color: #5f747d;
+  margin-bottom: 0;
+}
+
+.top-info-sobre .info-wrapper-sobre p {
+  font-family: "Poppins", sans-serif;
+}
+
+.unstyled-sobre {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.list-inline-sobre li {
+  display: inline-block;
+}
+
+
+.tl-bg {
+  padding-top: 400px;
+  padding-bottom: 68px;
+	margin-bottom:0px !important;
+  background: url(../../img/slide-4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+	background-position: center center;
+=======
+>>>>>>> 686b4f51ed89f9270089fcc130694e80131b6679
 }
 
 .top-info-sobre li .info-icon-sobre {
@@ -1505,6 +1567,14 @@ section,
   background-position: center center;
 }
 
+<<<<<<< HEAD
+@media (max-width: 768px) {
+  .tl-about {
+    background-image: url(../../img/bg-mobile.png); /* Replace with your mobile background image */
+  }
+}
+=======
+>>>>>>> 686b4f51ed89f9270089fcc130694e80131b6679
 
 .about-content .readmore-btn {
   margin-top: 10px;
