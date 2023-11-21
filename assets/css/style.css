@@ -1363,7 +1363,6 @@ section,
 }
 .top-info-sobre li {
   overflow: hidden;
-<<<<<<< HEAD
 }
 
 .top-info-sobre li .info-icon-sobre {
@@ -1423,8 +1422,6 @@ section,
   background-repeat: no-repeat;
   background-size: cover;
 	background-position: center center;
-=======
->>>>>>> 686b4f51ed89f9270089fcc130694e80131b6679
 }
 
 .top-info-sobre li .info-icon-sobre {
@@ -1567,14 +1564,11 @@ section,
   background-position: center center;
 }
 
-<<<<<<< HEAD
 @media (max-width: 768px) {
   .tl-about {
     background-image: url(../../img/bg-mobile.png); /* Replace with your mobile background image */
   }
 }
-=======
->>>>>>> 686b4f51ed89f9270089fcc130694e80131b6679
 
 .about-content .readmore-btn {
   margin-top: 10px;
