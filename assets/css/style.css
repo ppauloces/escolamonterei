@@ -1383,7 +1383,8 @@ section,
 }
 
 .top-info-sobre .info-wrapper-sobre {
-  overflow: hidden; /* Evita que o texto se sobreponha ao ícone */
+  margin-left:26px;
+  margin-right: 26px;
   margin-top: -4px;
 }
 
