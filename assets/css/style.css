@@ -330,30 +330,30 @@ section,
 }
 
 .bg-cursos {
-  	background-image: url(../img/comum/bg-home-cursos.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
+ background-image: url(../img/comum/bg-home-cursos.jpg);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
 }
 .bg-edify {
-  	background-image: url(../img/bg/bg-edify-home.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
+ background-image: url(../img/bg/bg-edify-home.jpg);
+ background-repeat: no-repeat;
+ background-position: center;
 
-	height: auto;
-	padding:55px 0 55px 0 !important;
-	position:relative;
-	top:-43px;
+ height: auto;
+ padding:55px 0 55px 0 !important;
+ position:relative;
+ top:-43px;
 }
 @media (max-width: 767px) {
-.bg-edify {
+  .bg-edify {
   	background-image: url(../img/bg/bg-edify-home-mobile.jpg) !important;
-	background-repeat: repeat !important;
-	height: auto;
-}
+   background-repeat: repeat !important;
+   height: auto;
+ }
 }
 .bg-edify h2{
-  	line-height: 0px !important;
+ line-height: 0px !important;
 }
 .bg-edify .subtit{
 	position:relative;
@@ -364,12 +364,12 @@ section,
 	line-height: 25px !important;
 }
 .bg-compartilha {
-  	background-image: url(../img/bg/bg-compartilha-home.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	padding:25px 0 25px 55px;
-	margin-bottom:80px;
+ background-image: url(../img/bg/bg-compartilha-home.jpg);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ padding:25px 0 25px 55px;
+ margin-bottom:80px;
 }
 .bg-compartilha .subtit{
 	position:relative;
@@ -379,10 +379,10 @@ section,
 	top:-55px;
 }
 .bg-blog {
-  	background-image: url(../img/comum/bg-home-blog.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
+ background-image: url(../img/comum/bg-home-blog.jpg);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
 }
 /* Text Colors */
 .color-green {
@@ -1191,6 +1191,8 @@ section,
   top: 96px;
 }
 
+
+
 .phone-call {
   position: absolute;
   top: -44px;
@@ -1417,11 +1419,11 @@ section,
 .tl-bg {
   padding-top: 400px;
   padding-bottom: 68px;
-	margin-bottom:0px !important;
+  margin-bottom:0px !important;
   background: url(../../img/slide-4.png);
   background-repeat: no-repeat;
   background-size: cover;
-	background-position: center center;
+  background-position: center center;
 }
 
 .top-info-sobre li .info-icon-sobre {
@@ -1981,8 +1983,8 @@ section,
 .grid .element-item img {
   height: 150px;
   width: 200px;
-	border:1px solid #CCC;
-	padding:5px;
+  border:1px solid #CCC;
+  padding:5px;
 }
 
 .portfolio-menu {
@@ -2335,6 +2337,11 @@ section,
 .footer-contact-info.color-orange i,
 .footer-contact-info.color-orange p {
   color: #f05a21;
+}
+
+.footer-contact-info.color-blue i,
+.footer-contact-info.color-blue p {
+  color: #1877f2;
 }
 
 /* Footer Main */
@@ -3943,17 +3950,17 @@ section,
   .signup-with {
     margin-top: 40px;
   }
-	
-	.bg-edify {
+  
+  .bg-edify {
   	background-image: url(../img/bg/bg-edify-home.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 100%;
-	height: auto;
-	padding:25px 0 25px 0;
-	position:relative;
-	top:-15px;
-}
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: 100%;
+   height: auto;
+   padding:25px 0 25px 0;
+   position:relative;
+   top:-15px;
+ }
 }
 .signup-with > span {
   margin-top: 40px;
@@ -4090,43 +4097,43 @@ input:focus {
 	padding:80px 0 80px 0 !important;
 }
 div.pagination {
-    padding: 3px;
-    margin: 3px;
-    z-index: 1000;
-    font-size: 14px;
-    margin-bottom: 20px;    
+  padding: 3px;
+  margin: 3px;
+  z-index: 1000;
+  font-size: 14px;
+  margin-bottom: 20px;    
 }
 
 div.pagination a {
-    padding: 5px 12px;
-    margin: 2px;
-    border: 1px solid #dddddd;
-    text-decoration: none; 
-    background-color: none;
-    color: #dddddd;
-    font-weight: bold;
+  padding: 5px 12px;
+  margin: 2px;
+  border: 1px solid #dddddd;
+  text-decoration: none; 
+  background-color: none;
+  color: #dddddd;
+  font-weight: bold;
 }
 
 div.pagination a:hover, div.pagination a:active {
-    border: 1px solid #ffbf10;
-    color: #FFF;
-    background-color: #ffbf10;
+  border: 1px solid #ffbf10;
+  color: #FFF;
+  background-color: #ffbf10;
 }
 
 div.pagination span.current {
-    padding: 5px 12px;
-    margin: 2px;
-    border: 1px solid #ffbf10;
-    font-weight: bold;
-    background-color: #ffbf10;
-    color: #FFF;
+  padding: 5px 12px;
+  margin: 2px;
+  border: 1px solid #ffbf10;
+  font-weight: bold;
+  background-color: #ffbf10;
+  color: #FFF;
 }
 
 div.pagination span.disabled {
-    padding: 5px 12px;
-    margin: 2px;
-    border: 1px solid #929693;
-    color: #929693;
+  padding: 5px 12px;
+  margin: 2px;
+  border: 1px solid #929693;
+  color: #929693;
 }
 .img-fotos{
 	width: 100%;
