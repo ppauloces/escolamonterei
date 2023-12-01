@@ -563,7 +563,7 @@ section,
 }
 
 .main-container{
-	padding:100px 0 100px 0 !important;
+	padding:0 0 100px 0 !important;
 }
 
 /* No Padding */
@@ -1109,7 +1109,7 @@ section,
   visibility: visible;
   top: 56px;
   border-radius: 0;
-  background: #2e4ea1;
+  background: #01364B;
 }
 .navbar-expand-lg .navbar-nav .nav-item.active .nav-link {
   color: #ff9f00;
@@ -1421,6 +1421,15 @@ section,
   padding-bottom: 68px;
   margin-bottom:0px !important;
   background: url(../../img/slide-4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.tl-contato {
+  padding-bottom: 68px;
+  margin-bottom:0px !important;
+  background: url(../../img/bg-contato.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -2279,7 +2288,7 @@ section,
 /* Footer
 =========================================== */
 .tl-footer {
-  background: #01364b;
+  background: #01364B;
   padding: 30px 0;
 }
 
@@ -2525,6 +2534,7 @@ section,
   border-radius: 25px;
   margin-top: 32px;
   margin-bottom: 48px;
+  resize: none;
 }
 
 /* Map */
