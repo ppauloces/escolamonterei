@@ -1426,6 +1426,43 @@ section,
   background-position: center center;
 }
 
+.tl-anuncio {
+  padding-top: 12px;
+  margin-bottom: 0px !important;
+  background: url(../../img/bg-contato.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.tl-anuncio h4.icon-anuncio {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    font-size: 3.5rem ; /* Tamanho do emoji para telas pequenas */
+  }
+.tl-anuncio h4 {
+    padding-right: 5px; /* Tamanho do texto para telas pequenas */
+  }
+   .tl-anuncio h2 {
+    padding-right: 5px; /* Tamanho do texto para telas pequenas */
+  }
+
+/* Adicione estas classes para ajustar o tamanho dos textos em telas menores */
+@media (max-width: 767px) {
+  .tl-anuncio h4 {
+    font-size: 10px; /* Tamanho do texto para telas pequenas */
+  }
+
+  .tl-anuncio h4.icon-anuncio {
+    font-size: 2rem !important;
+   }
+
+  .tl-anuncio h2 {
+    font-size: 1rem; /* Tamanho do texto para telas pequenas */
+  }
+}
+
+
 .tl-contato {
   padding-bottom: 68px;
   margin-bottom:0px !important;
@@ -4149,4 +4186,53 @@ div.pagination span.disabled {
 	width: 100%;
 	height: 220px;
 	overflow: hidden;
+}
+
+    .whatsapp-link {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 40px;
+      right: 40px;
+      background-color: #25d366;
+      color: #FFF;
+      border-radius: 50px;
+      text-align: center;
+      font-size: 28px;
+      box-shadow: 1px 1px 2px #888;
+      z-index: 1000;
+      transition: 0.5s;
+    }
+
+    @keyframes shake {
+      0% { transform: translateX(0); }
+      25% { transform: translateX(-5px) rotate(5deg); }
+      50% { transform: translateX(5px) rotate(-5deg); }
+      75% { transform: translateX(-5px) rotate(5deg); }
+      100% { transform: translateX(0); }
+    }
+
+    .whatsapp-link:hover {
+      animation: shake 0.5s ease-in-out;
+      color: #25d366;
+      background-color: #fff;
+      border: 1px solid #25d366;
+    }
+
+
+.portfolio-item{
+  /*width:100%;*/
+}
+.portfolio-item .item{
+  /*width:303px;*/
+  float:left;
+  margin-bottom:10px;
+}
+
+.portfolio-item .item img {
+    transition: transform 0.3s ease-in-out; /* Adiciona uma transição suave */
+}
+
+.portfolio-item .item img:hover {
+    transform: scale(1.1); /* Aumenta a escala da imagem em 10% quando o mouse passa por cima */
 }
